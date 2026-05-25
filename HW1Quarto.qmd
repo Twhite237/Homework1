@@ -1,0 +1,50 @@
+---
+title: "HW1Quarto"
+format: html
+editor: visual
+---
+
+# Homework 1
+
+## Question 1
+
+-   I think that being a data scientist is really all about having the toolset to use an overlap of statistics/mathematics, software engineering, and data infrastructure and employing that toolset to drive value and better decision making within an organization
+-   Statistics is more concerned with conducting experiments and utilizing sound data generating processes and distributional results to yield answers to questions we may have that are backed by science and math. On the other hand, a data scientist's end goal is to meet the requirements and goals of the organization with the use of data and technology. However, there is lots of overlap. A data scientist could need to use statistical inference as a tool for testing effectiveness of a new change. A statistician could also use the software and engineering skills of a data scientist to develop production-grade statistical software.
+-   I see myself as more of a data scientist with the tools and training of a statistician. I work in a data-facing role within the manufacturing end of a large pharmaceutical company, so success always revolves around how the data is being used in order to manufacture with higher quality, lower cost, or in less time. Business benefit is always the end goal for me, where as in the research end of my company, data processionals may align more with statistics, as they are attempting to design experiments to determined the efficacy of a new product. Statistics is a tool that I can use to help reach those goals, but I see myself as someone who is passionate about the whole picture.
+
+## Problem 2
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+### Determine Class, Type, Structure
+We will use the functions "class", "typeof", and "str" to determine the class, type, and structure of y, respectively.
+
+#### Class
+
+```{r}
+class(y)
+```
+
+#### Type
+
+```{r}
+typeof(y)
+```
+
+#### Structure
+
+```{r}
+str(y)
+```
+
+### Plot *y* and Hide R Code
+
+```{r}
+#| echo: false
+plot(y)
+```
+
+
+
